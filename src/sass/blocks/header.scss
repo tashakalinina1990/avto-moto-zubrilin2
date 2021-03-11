@@ -1,0 +1,13 @@
+.header {
+  background-color: $background-second;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $desktop-width;
+  min-height: 84px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

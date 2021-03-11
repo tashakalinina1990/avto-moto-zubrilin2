@@ -1,0 +1,45 @@
+.tab-bars {
+  margin-bottom: 140px;
+}
+
+.tab-bars__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: $desktop-width;
+  min-width: 766px;
+  margin: 0 auto;
+  padding: 0 19px;
+}
+
+.tab-bars__buttons {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.tab-bars__button {
+  min-width: 195px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #48494d;
+  border: 1px solid #d7d9df;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #bd0c21;
+    color: #ffffff;
+  }
+
+  &--active {
+    background-color: #d12136;
+    color: #ffffff;
+  }
+
+  &:active {
+    border: none;
+  }
+}

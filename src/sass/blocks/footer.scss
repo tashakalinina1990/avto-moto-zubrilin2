@@ -1,0 +1,13 @@
+.footer {
+  background-color: $background-second;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  max-width: $desktop-width;
+  min-height: 82px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding: 0 22px;
+}

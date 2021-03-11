@@ -1,0 +1,31 @@
+.nav {
+  width: 44.4%;
+
+  &--footer {
+    width: 100%;
+  }
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include list-reset();
+}
+
+.nav__item a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: $ford-medium-gray;
+
+  &[href]:hover,
+  &[href]:focus {
+    color: #d12136;
+  }
+
+  &[href]:active {
+    color: #d12136;
+    opacity: 0.8;
+  }
+}

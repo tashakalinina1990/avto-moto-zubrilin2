@@ -1,0 +1,18 @@
+.offer {
+  margin-top: 74px;
+  margin-bottom: 87px;
+}
+
+.offer__wrapper {
+  display: flex;
+  max-width: $desktop-width;
+  margin: 0 auto;
+  padding: 0 13px;
+}
+
+@media (max-width: $boundary-width) {
+  .offer__wrapper {
+    flex-wrap: wrap;
+    padding: 0 5px;
+  }
+}
